@@ -21,7 +21,6 @@ public class Task1 {
                 flag = 1;
             }
         }
-
         return sb.toString();
     }
 
@@ -38,7 +37,6 @@ public class Task1 {
                 if (ch != '"'){
                     sb.append(ch.toString());
                 }
-                
             }
             fr.close();
             return sb.toString();

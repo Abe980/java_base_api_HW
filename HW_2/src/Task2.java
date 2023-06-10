@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -10,11 +9,7 @@ public class Task2 {
     // результат после каждой итерации запишите в лог-файл
 
 
-    
-
-
-    
-    public static int[] arrSort(int [] arr){
+        public static int[] arrSort(int [] arr){
         try {
             Logger logger = Logger.getLogger(Task2.class.getName());
             logger.setLevel(Level.INFO);
