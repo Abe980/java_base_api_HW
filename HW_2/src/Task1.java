@@ -34,7 +34,7 @@ public class Task1 {
             int c;
             while ((c = fr.read()) != -1){
                 Character ch = (char)c;
-                if (ch != '"'){
+                if (ch != '"' && ch != '{' && ch != '}'){
                     sb.append(ch.toString());
                 }
             }
